@@ -1,0 +1,783 @@
+2024-11-28 00:35:00,327 - INFO: --- Original DataFrame ---
+2024-11-28 00:35:00,328 - INFO: DataFrame Shape: (116, 9)
+2024-11-28 00:35:00,328 - INFO: Columns:
+2024-11-28 00:35:00,329 - INFO: - Unnamed: 0
+2024-11-28 00:35:00,367 - INFO: - Name
+2024-11-28 00:35:00,370 - INFO: - Address
+2024-11-28 00:35:00,370 - INFO: - Rating_text
+2024-11-28 00:35:00,371 - INFO: - Opening Time
+2024-11-28 00:35:00,372 - INFO: - Phone Number
+2024-11-28 00:35:00,372 - INFO: - GMAP
+2024-11-28 00:35:00,373 - INFO: - Website
+2024-11-28 00:35:00,373 - INFO: - All_content
+2024-11-28 00:35:00,374 - INFO: First few rows:
+2024-11-28 00:35:00,406 - INFO:    Unnamed: 0                                               Name  ...                       Website                                        All_content
+0           0  Dplus Car Care - Car Detailing | Car Tinkering...  ...  http://www.dpluscarcare.com/  ['', '', '', '', '', 'CHIL SEZ IT Park, Sarava...
+1           1                                Abilash Auto Garage  ...                           NaN                                                NaN
+2           2                                       SNS CAR CARE  ...        https://snscarcare.in/  ['Home\nAbout\nServices\nContact\nExpert Car R...
+3           3                          SRI RAGHUNANTHAN CAR CARE  ...                           NaN                                                NaN
+4           4        Prime Car Service | Multi Brand Car Service  ...                           NaN                                                NaN
+
+[5 rows x 9 columns]
+2024-11-28 00:35:00,406 - INFO: Loaded file with 116 rows
+2024-11-28 00:35:00,407 - INFO: Processing row 1/116
+2024-11-28 00:35:00,408 - WARNING: Skipping row 1 - No content
+2024-11-28 00:35:00,408 - INFO: Processing row 2/116
+2024-11-28 00:35:00,409 - WARNING: Skipping row 2 - No content
+2024-11-28 00:35:00,409 - INFO: Processing row 3/116
+2024-11-28 00:35:00,410 - WARNING: Skipping row 3 - No content
+2024-11-28 00:35:00,410 - INFO: Processing row 4/116
+2024-11-28 00:35:00,411 - WARNING: Skipping row 4 - No content
+2024-11-28 00:35:00,411 - INFO: Processing row 5/116
+2024-11-28 00:35:00,412 - WARNING: Skipping row 5 - No content
+2024-11-28 00:35:00,412 - INFO: Processing row 6/116
+2024-11-28 00:35:00,413 - WARNING: Skipping row 6 - No content
+2024-11-28 00:35:00,413 - INFO: Processing row 7/116
+2024-11-28 00:35:00,414 - WARNING: Skipping row 7 - No content
+2024-11-28 00:35:00,414 - INFO: Processing row 8/116
+2024-11-28 00:35:00,415 - WARNING: Skipping row 8 - No content
+2024-11-28 00:35:00,415 - INFO: Processing row 9/116
+2024-11-28 00:35:00,416 - WARNING: Skipping row 9 - No content
+2024-11-28 00:35:00,416 - INFO: Processing row 10/116
+2024-11-28 00:35:00,416 - WARNING: Skipping row 10 - No content
+2024-11-28 00:35:00,417 - INFO: Processing row 11/116
+2024-11-28 00:35:00,418 - WARNING: Skipping row 11 - No content
+2024-11-28 00:35:00,418 - INFO: Processing row 12/116
+2024-11-28 00:35:00,419 - WARNING: Skipping row 12 - No content
+2024-11-28 00:35:00,419 - INFO: Processing row 13/116
+2024-11-28 00:35:00,420 - WARNING: Skipping row 13 - No content
+2024-11-28 00:35:00,420 - INFO: Processing row 14/116
+2024-11-28 00:35:00,421 - WARNING: Skipping row 14 - No content
+2024-11-28 00:35:00,421 - INFO: Processing row 15/116
+2024-11-28 00:35:00,422 - WARNING: Skipping row 15 - No content
+2024-11-28 00:35:00,422 - INFO: Processing row 16/116
+2024-11-28 00:35:00,423 - WARNING: Skipping row 16 - No content
+2024-11-28 00:35:00,423 - INFO: Processing row 17/116
+2024-11-28 00:35:00,424 - WARNING: Skipping row 17 - No content
+2024-11-28 00:35:00,424 - INFO: Processing row 18/116
+2024-11-28 00:35:00,425 - WARNING: Skipping row 18 - No content
+2024-11-28 00:35:00,425 - INFO: Processing row 19/116
+2024-11-28 00:35:00,425 - WARNING: Skipping row 19 - No content
+2024-11-28 00:35:00,426 - INFO: Processing row 20/116
+2024-11-28 00:35:00,426 - WARNING: Skipping row 20 - No content
+2024-11-28 00:35:00,427 - INFO: Processing row 21/116
+2024-11-28 00:35:00,427 - WARNING: Skipping row 21 - No content
+2024-11-28 00:35:00,428 - INFO: Processing row 22/116
+2024-11-28 00:35:00,428 - WARNING: Skipping row 22 - No content
+2024-11-28 00:35:00,429 - INFO: Processing row 23/116
+2024-11-28 00:35:00,429 - WARNING: Skipping row 23 - No content
+2024-11-28 00:35:00,430 - INFO: Processing row 24/116
+2024-11-28 00:35:00,430 - WARNING: Skipping row 24 - No content
+2024-11-28 00:35:00,431 - INFO: Processing row 25/116
+2024-11-28 00:35:00,431 - WARNING: Skipping row 25 - No content
+2024-11-28 00:35:00,432 - INFO: Processing row 26/116
+2024-11-28 00:35:00,432 - WARNING: Skipping row 26 - No content
+2024-11-28 00:35:00,433 - INFO: Processing row 27/116
+2024-11-28 00:35:00,433 - WARNING: Skipping row 27 - No content
+2024-11-28 00:35:00,434 - INFO: Processing row 28/116
+2024-11-28 00:35:00,434 - WARNING: Skipping row 28 - No content
+2024-11-28 00:35:00,435 - INFO: Processing row 29/116
+2024-11-28 00:35:00,435 - WARNING: Skipping row 29 - No content
+2024-11-28 00:35:00,436 - INFO: Processing row 30/116
+2024-11-28 00:35:00,436 - WARNING: Skipping row 30 - No content
+2024-11-28 00:35:00,437 - INFO: Processing row 31/116
+2024-11-28 00:35:00,437 - WARNING: Skipping row 31 - No content
+2024-11-28 00:35:00,438 - INFO: Processing row 32/116
+2024-11-28 00:35:00,438 - WARNING: Skipping row 32 - No content
+2024-11-28 00:35:00,439 - INFO: Processing row 33/116
+2024-11-28 00:35:00,439 - WARNING: Skipping row 33 - No content
+2024-11-28 00:35:00,440 - INFO: Processing row 34/116
+2024-11-28 00:35:00,440 - WARNING: Skipping row 34 - No content
+2024-11-28 00:35:00,441 - INFO: Processing row 35/116
+2024-11-28 00:35:00,441 - WARNING: Skipping row 35 - No content
+2024-11-28 00:35:00,442 - INFO: Processing row 36/116
+2024-11-28 00:35:00,442 - WARNING: Skipping row 36 - No content
+2024-11-28 00:35:00,442 - INFO: Processing row 37/116
+2024-11-28 00:35:00,443 - WARNING: Skipping row 37 - No content
+2024-11-28 00:35:00,443 - INFO: Processing row 38/116
+2024-11-28 00:35:00,443 - WARNING: Skipping row 38 - No content
+2024-11-28 00:35:00,444 - INFO: Processing row 39/116
+2024-11-28 00:35:00,444 - WARNING: Skipping row 39 - No content
+2024-11-28 00:35:00,445 - INFO: Processing row 40/116
+2024-11-28 00:35:00,445 - WARNING: Skipping row 40 - No content
+2024-11-28 00:35:00,446 - INFO: Processing row 41/116
+2024-11-28 00:35:00,446 - WARNING: Skipping row 41 - No content
+2024-11-28 00:35:00,446 - INFO: Processing row 42/116
+2024-11-28 00:35:00,447 - WARNING: Skipping row 42 - No content
+2024-11-28 00:35:00,447 - INFO: Processing row 43/116
+2024-11-28 00:35:00,447 - WARNING: Skipping row 43 - No content
+2024-11-28 00:35:00,448 - INFO: Processing row 44/116
+2024-11-28 00:35:00,448 - WARNING: Skipping row 44 - No content
+2024-11-28 00:35:00,449 - INFO: Processing row 45/116
+2024-11-28 00:35:00,449 - WARNING: Skipping row 45 - No content
+2024-11-28 00:35:00,450 - INFO: Processing row 46/116
+2024-11-28 00:35:00,450 - WARNING: Skipping row 46 - No content
+2024-11-28 00:35:00,451 - INFO: Processing row 47/116
+2024-11-28 00:35:00,451 - WARNING: Skipping row 47 - No content
+2024-11-28 00:35:00,451 - INFO: Processing row 48/116
+2024-11-28 00:35:00,452 - WARNING: Skipping row 48 - No content
+2024-11-28 00:35:00,452 - INFO: Processing row 49/116
+2024-11-28 00:35:00,453 - WARNING: Skipping row 49 - No content
+2024-11-28 00:35:00,453 - INFO: Processing row 50/116
+2024-11-28 00:35:00,453 - WARNING: Skipping row 50 - No content
+2024-11-28 00:35:00,454 - INFO: Processing row 51/116
+2024-11-28 00:35:00,454 - WARNING: Skipping row 51 - No content
+2024-11-28 00:35:00,454 - INFO: Processing row 52/116
+2024-11-28 00:35:00,455 - WARNING: Skipping row 52 - No content
+2024-11-28 00:35:00,455 - INFO: Processing row 53/116
+2024-11-28 00:35:00,455 - WARNING: Skipping row 53 - No content
+2024-11-28 00:35:00,456 - INFO: Processing row 54/116
+2024-11-28 00:35:00,456 - WARNING: Skipping row 54 - No content
+2024-11-28 00:35:00,456 - INFO: Processing row 55/116
+2024-11-28 00:35:00,457 - WARNING: Skipping row 55 - No content
+2024-11-28 00:35:00,457 - INFO: Processing row 56/116
+2024-11-28 00:35:00,457 - WARNING: Skipping row 56 - No content
+2024-11-28 00:35:00,458 - INFO: Processing row 57/116
+2024-11-28 00:35:00,458 - WARNING: Skipping row 57 - No content
+2024-11-28 00:35:00,459 - INFO: Processing row 58/116
+2024-11-28 00:35:00,459 - WARNING: Skipping row 58 - No content
+2024-11-28 00:35:00,459 - INFO: Processing row 59/116
+2024-11-28 00:35:00,460 - WARNING: Skipping row 59 - No content
+2024-11-28 00:35:00,460 - INFO: Processing row 60/116
+2024-11-28 00:35:00,460 - WARNING: Skipping row 60 - No content
+2024-11-28 00:35:00,461 - INFO: Processing row 61/116
+2024-11-28 00:35:00,461 - WARNING: Skipping row 61 - No content
+2024-11-28 00:35:00,461 - INFO: Processing row 62/116
+2024-11-28 00:35:00,462 - WARNING: Skipping row 62 - No content
+2024-11-28 00:35:00,462 - INFO: Processing row 63/116
+2024-11-28 00:35:00,462 - WARNING: Skipping row 63 - No content
+2024-11-28 00:35:00,463 - INFO: Processing row 64/116
+2024-11-28 00:35:00,463 - WARNING: Skipping row 64 - No content
+2024-11-28 00:35:00,463 - INFO: Processing row 65/116
+2024-11-28 00:35:00,464 - WARNING: Skipping row 65 - No content
+2024-11-28 00:35:00,464 - INFO: Processing row 66/116
+2024-11-28 00:35:00,464 - WARNING: Skipping row 66 - No content
+2024-11-28 00:35:00,465 - INFO: Processing row 67/116
+2024-11-28 00:35:00,465 - WARNING: Skipping row 67 - No content
+2024-11-28 00:35:00,465 - INFO: Processing row 68/116
+2024-11-28 00:35:00,466 - WARNING: Skipping row 68 - No content
+2024-11-28 00:35:00,466 - INFO: Processing row 69/116
+2024-11-28 00:35:00,466 - WARNING: Skipping row 69 - No content
+2024-11-28 00:35:00,467 - INFO: Processing row 70/116
+2024-11-28 00:35:00,467 - WARNING: Skipping row 70 - No content
+2024-11-28 00:35:00,467 - INFO: Processing row 71/116
+2024-11-28 00:35:00,468 - WARNING: Skipping row 71 - No content
+2024-11-28 00:35:00,468 - INFO: Processing row 72/116
+2024-11-28 00:35:00,468 - WARNING: Skipping row 72 - No content
+2024-11-28 00:35:00,469 - INFO: Processing row 73/116
+2024-11-28 00:35:00,469 - WARNING: Skipping row 73 - No content
+2024-11-28 00:35:00,469 - INFO: Processing row 74/116
+2024-11-28 00:35:00,470 - WARNING: Skipping row 74 - No content
+2024-11-28 00:35:00,470 - INFO: Processing row 75/116
+2024-11-28 00:35:00,470 - WARNING: Skipping row 75 - No content
+2024-11-28 00:35:00,471 - INFO: Processing row 76/116
+2024-11-28 00:35:00,471 - WARNING: Skipping row 76 - No content
+2024-11-28 00:35:00,471 - INFO: Processing row 77/116
+2024-11-28 00:35:00,472 - WARNING: Skipping row 77 - No content
+2024-11-28 00:35:00,472 - INFO: Processing row 78/116
+2024-11-28 00:35:00,472 - WARNING: Skipping row 78 - No content
+2024-11-28 00:35:00,473 - INFO: Processing row 79/116
+2024-11-28 00:35:00,473 - WARNING: Skipping row 79 - No content
+2024-11-28 00:35:00,473 - INFO: Processing row 80/116
+2024-11-28 00:35:00,474 - WARNING: Skipping row 80 - No content
+2024-11-28 00:35:00,474 - INFO: Processing row 81/116
+2024-11-28 00:35:00,474 - WARNING: Skipping row 81 - No content
+2024-11-28 00:35:00,475 - INFO: Processing row 82/116
+2024-11-28 00:35:00,475 - WARNING: Skipping row 82 - No content
+2024-11-28 00:35:00,475 - INFO: Processing row 83/116
+2024-11-28 00:35:00,476 - WARNING: Skipping row 83 - No content
+2024-11-28 00:35:00,476 - INFO: Processing row 84/116
+2024-11-28 00:35:00,476 - WARNING: Skipping row 84 - No content
+2024-11-28 00:35:00,477 - INFO: Processing row 85/116
+2024-11-28 00:35:00,477 - WARNING: Skipping row 85 - No content
+2024-11-28 00:35:00,477 - INFO: Processing row 86/116
+2024-11-28 00:35:00,478 - WARNING: Skipping row 86 - No content
+2024-11-28 00:35:00,478 - INFO: Processing row 87/116
+2024-11-28 00:35:00,478 - WARNING: Skipping row 87 - No content
+2024-11-28 00:35:00,479 - INFO: Processing row 88/116
+2024-11-28 00:35:00,479 - WARNING: Skipping row 88 - No content
+2024-11-28 00:35:00,479 - INFO: Processing row 89/116
+2024-11-28 00:35:00,480 - WARNING: Skipping row 89 - No content
+2024-11-28 00:35:00,480 - INFO: Processing row 90/116
+2024-11-28 00:35:00,480 - WARNING: Skipping row 90 - No content
+2024-11-28 00:35:00,481 - INFO: Processing row 91/116
+2024-11-28 00:35:00,481 - WARNING: Skipping row 91 - No content
+2024-11-28 00:35:00,481 - INFO: Processing row 92/116
+2024-11-28 00:35:00,482 - WARNING: Skipping row 92 - No content
+2024-11-28 00:35:00,482 - INFO: Processing row 93/116
+2024-11-28 00:35:00,482 - WARNING: Skipping row 93 - No content
+2024-11-28 00:35:00,483 - INFO: Processing row 94/116
+2024-11-28 00:35:00,483 - WARNING: Skipping row 94 - No content
+2024-11-28 00:35:00,483 - INFO: Processing row 95/116
+2024-11-28 00:35:00,484 - WARNING: Skipping row 95 - No content
+2024-11-28 00:35:00,484 - INFO: Processing row 96/116
+2024-11-28 00:35:00,484 - WARNING: Skipping row 96 - No content
+2024-11-28 00:35:00,485 - INFO: Processing row 97/116
+2024-11-28 00:35:00,485 - WARNING: Skipping row 97 - No content
+2024-11-28 00:35:00,486 - INFO: Processing row 98/116
+2024-11-28 00:35:00,486 - WARNING: Skipping row 98 - No content
+2024-11-28 00:35:00,486 - INFO: Processing row 99/116
+2024-11-28 00:35:00,487 - WARNING: Skipping row 99 - No content
+2024-11-28 00:35:00,487 - INFO: Processing row 100/116
+2024-11-28 00:35:00,487 - WARNING: Skipping row 100 - No content
+2024-11-28 00:35:00,488 - INFO: Processing row 101/116
+2024-11-28 00:35:00,488 - WARNING: Skipping row 101 - No content
+2024-11-28 00:35:00,488 - INFO: Processing row 102/116
+2024-11-28 00:35:00,489 - WARNING: Skipping row 102 - No content
+2024-11-28 00:35:00,489 - INFO: Processing row 103/116
+2024-11-28 00:35:00,489 - WARNING: Skipping row 103 - No content
+2024-11-28 00:35:00,490 - INFO: Processing row 104/116
+2024-11-28 00:35:00,490 - WARNING: Skipping row 104 - No content
+2024-11-28 00:35:00,490 - INFO: Processing row 105/116
+2024-11-28 00:35:00,491 - WARNING: Skipping row 105 - No content
+2024-11-28 00:35:00,491 - INFO: Processing row 106/116
+2024-11-28 00:35:00,491 - WARNING: Skipping row 106 - No content
+2024-11-28 00:35:00,492 - INFO: Processing row 107/116
+2024-11-28 00:35:00,492 - WARNING: Skipping row 107 - No content
+2024-11-28 00:35:00,492 - INFO: Processing row 108/116
+2024-11-28 00:35:00,493 - WARNING: Skipping row 108 - No content
+2024-11-28 00:35:00,493 - INFO: Processing row 109/116
+2024-11-28 00:35:00,493 - WARNING: Skipping row 109 - No content
+2024-11-28 00:35:00,494 - INFO: Processing row 110/116
+2024-11-28 00:35:00,494 - WARNING: Skipping row 110 - No content
+2024-11-28 00:35:00,494 - INFO: Processing row 111/116
+2024-11-28 00:35:00,495 - WARNING: Skipping row 111 - No content
+2024-11-28 00:35:00,495 - INFO: Processing row 112/116
+2024-11-28 00:35:00,495 - WARNING: Skipping row 112 - No content
+2024-11-28 00:35:00,496 - INFO: Processing row 113/116
+2024-11-28 00:35:00,496 - WARNING: Skipping row 113 - No content
+2024-11-28 00:35:00,496 - INFO: Processing row 114/116
+2024-11-28 00:35:00,496 - WARNING: Skipping row 114 - No content
+2024-11-28 00:35:00,497 - INFO: Processing row 115/116
+2024-11-28 00:35:00,497 - WARNING: Skipping row 115 - No content
+2024-11-28 00:35:00,497 - INFO: Processing row 116/116
+2024-11-28 00:35:00,498 - WARNING: Skipping row 116 - No content
+2024-11-28 00:35:00,499 - INFO: --- Processed DataFrame ---
+2024-11-28 00:35:00,499 - INFO: DataFrame Shape: (0, 0)
+2024-11-28 00:35:00,499 - INFO: Columns:
+2024-11-28 00:35:00,499 - INFO: First few rows:
+2024-11-28 00:35:00,501 - INFO: Empty DataFrame
+Columns: []
+Index: []
+2024-11-28 00:35:52,671 - INFO: --- Original DataFrame ---
+2024-11-28 00:35:52,672 - INFO: DataFrame Shape: (116, 9)
+2024-11-28 00:35:52,672 - INFO: Columns:
+2024-11-28 00:35:52,672 - INFO: - Unnamed: 0
+2024-11-28 00:35:52,673 - INFO: - Name
+2024-11-28 00:35:52,673 - INFO: - Address
+2024-11-28 00:35:52,673 - INFO: - Rating_text
+2024-11-28 00:35:52,673 - INFO: - Opening Time
+2024-11-28 00:35:52,674 - INFO: - Phone Number
+2024-11-28 00:35:52,674 - INFO: - GMAP
+2024-11-28 00:35:52,674 - INFO: - Website
+2024-11-28 00:35:52,674 - INFO: - All_content
+2024-11-28 00:35:52,675 - INFO: First few rows:
+2024-11-28 00:35:52,686 - INFO:    Unnamed: 0                                               Name  ...                       Website                                        All_content
+0           0  Dplus Car Care - Car Detailing | Car Tinkering...  ...  http://www.dpluscarcare.com/  ['', '', '', '', '', 'CHIL SEZ IT Park, Sarava...
+1           1                                Abilash Auto Garage  ...                           NaN                                                NaN
+2           2                                       SNS CAR CARE  ...        https://snscarcare.in/  ['Home\nAbout\nServices\nContact\nExpert Car R...
+3           3                          SRI RAGHUNANTHAN CAR CARE  ...                           NaN                                                NaN
+4           4        Prime Car Service | Multi Brand Car Service  ...                           NaN                                                NaN
+
+[5 rows x 9 columns]
+2024-11-28 00:35:52,687 - INFO: Loaded file with 116 rows
+2024-11-28 00:35:52,687 - INFO: Processing row 1/116
+2024-11-28 00:35:52,688 - WARNING: Skipping row 1 - No content
+2024-11-28 00:35:52,688 - INFO: Processing row 2/116
+2024-11-28 00:35:52,688 - WARNING: Skipping row 2 - No content
+2024-11-28 00:35:52,689 - INFO: Processing row 3/116
+2024-11-28 00:35:52,689 - WARNING: Skipping row 3 - No content
+2024-11-28 00:35:52,689 - INFO: Processing row 4/116
+2024-11-28 00:35:52,690 - WARNING: Skipping row 4 - No content
+2024-11-28 00:35:52,690 - INFO: Processing row 5/116
+2024-11-28 00:35:52,690 - WARNING: Skipping row 5 - No content
+2024-11-28 00:35:52,691 - INFO: Processing row 6/116
+2024-11-28 00:35:52,691 - WARNING: Skipping row 6 - No content
+2024-11-28 00:35:52,691 - INFO: Processing row 7/116
+2024-11-28 00:35:52,692 - WARNING: Skipping row 7 - No content
+2024-11-28 00:35:52,692 - INFO: Processing row 8/116
+2024-11-28 00:35:52,692 - WARNING: Skipping row 8 - No content
+2024-11-28 00:35:52,693 - INFO: Processing row 9/116
+2024-11-28 00:35:52,693 - WARNING: Skipping row 9 - No content
+2024-11-28 00:35:52,693 - INFO: Processing row 10/116
+2024-11-28 00:35:52,694 - WARNING: Skipping row 10 - No content
+2024-11-28 00:35:52,694 - INFO: Processing row 11/116
+2024-11-28 00:35:52,694 - WARNING: Skipping row 11 - No content
+2024-11-28 00:35:52,695 - INFO: Processing row 12/116
+2024-11-28 00:35:52,695 - WARNING: Skipping row 12 - No content
+2024-11-28 00:35:52,695 - INFO: Processing row 13/116
+2024-11-28 00:35:52,696 - WARNING: Skipping row 13 - No content
+2024-11-28 00:35:52,696 - INFO: Processing row 14/116
+2024-11-28 00:35:52,696 - WARNING: Skipping row 14 - No content
+2024-11-28 00:35:52,697 - INFO: Processing row 15/116
+2024-11-28 00:35:52,697 - WARNING: Skipping row 15 - No content
+2024-11-28 00:35:52,697 - INFO: Processing row 16/116
+2024-11-28 00:35:52,698 - WARNING: Skipping row 16 - No content
+2024-11-28 00:35:52,698 - INFO: Processing row 17/116
+2024-11-28 00:35:52,698 - WARNING: Skipping row 17 - No content
+2024-11-28 00:35:52,699 - INFO: Processing row 18/116
+2024-11-28 00:35:52,699 - WARNING: Skipping row 18 - No content
+2024-11-28 00:35:52,699 - INFO: Processing row 19/116
+2024-11-28 00:35:52,700 - WARNING: Skipping row 19 - No content
+2024-11-28 00:35:52,700 - INFO: Processing row 20/116
+2024-11-28 00:35:52,700 - WARNING: Skipping row 20 - No content
+2024-11-28 00:35:52,701 - INFO: Processing row 21/116
+2024-11-28 00:35:52,701 - WARNING: Skipping row 21 - No content
+2024-11-28 00:35:52,701 - INFO: Processing row 22/116
+2024-11-28 00:35:52,702 - WARNING: Skipping row 22 - No content
+2024-11-28 00:35:52,702 - INFO: Processing row 23/116
+2024-11-28 00:35:52,703 - WARNING: Skipping row 23 - No content
+2024-11-28 00:35:52,703 - INFO: Processing row 24/116
+2024-11-28 00:35:52,703 - WARNING: Skipping row 24 - No content
+2024-11-28 00:35:52,704 - INFO: Processing row 25/116
+2024-11-28 00:35:52,704 - WARNING: Skipping row 25 - No content
+2024-11-28 00:35:52,705 - INFO: Processing row 26/116
+2024-11-28 00:35:52,705 - WARNING: Skipping row 26 - No content
+2024-11-28 00:35:52,705 - INFO: Processing row 27/116
+2024-11-28 00:35:52,706 - WARNING: Skipping row 27 - No content
+2024-11-28 00:35:52,706 - INFO: Processing row 28/116
+2024-11-28 00:35:52,706 - WARNING: Skipping row 28 - No content
+2024-11-28 00:35:52,707 - INFO: Processing row 29/116
+2024-11-28 00:35:52,707 - WARNING: Skipping row 29 - No content
+2024-11-28 00:35:52,707 - INFO: Processing row 30/116
+2024-11-28 00:35:52,708 - WARNING: Skipping row 30 - No content
+2024-11-28 00:35:52,708 - INFO: Processing row 31/116
+2024-11-28 00:35:52,708 - WARNING: Skipping row 31 - No content
+2024-11-28 00:35:52,709 - INFO: Processing row 32/116
+2024-11-28 00:35:52,709 - WARNING: Skipping row 32 - No content
+2024-11-28 00:35:52,709 - INFO: Processing row 33/116
+2024-11-28 00:35:52,710 - WARNING: Skipping row 33 - No content
+2024-11-28 00:35:52,710 - INFO: Processing row 34/116
+2024-11-28 00:35:52,710 - WARNING: Skipping row 34 - No content
+2024-11-28 00:35:52,711 - INFO: Processing row 35/116
+2024-11-28 00:35:52,711 - WARNING: Skipping row 35 - No content
+2024-11-28 00:35:52,711 - INFO: Processing row 36/116
+2024-11-28 00:35:52,712 - WARNING: Skipping row 36 - No content
+2024-11-28 00:35:52,712 - INFO: Processing row 37/116
+2024-11-28 00:35:52,712 - WARNING: Skipping row 37 - No content
+2024-11-28 00:35:52,713 - INFO: Processing row 38/116
+2024-11-28 00:35:52,713 - WARNING: Skipping row 38 - No content
+2024-11-28 00:35:52,713 - INFO: Processing row 39/116
+2024-11-28 00:35:52,714 - WARNING: Skipping row 39 - No content
+2024-11-28 00:35:52,714 - INFO: Processing row 40/116
+2024-11-28 00:35:52,714 - WARNING: Skipping row 40 - No content
+2024-11-28 00:35:52,715 - INFO: Processing row 41/116
+2024-11-28 00:35:52,715 - WARNING: Skipping row 41 - No content
+2024-11-28 00:35:52,715 - INFO: Processing row 42/116
+2024-11-28 00:35:52,716 - WARNING: Skipping row 42 - No content
+2024-11-28 00:35:52,716 - INFO: Processing row 43/116
+2024-11-28 00:35:52,716 - WARNING: Skipping row 43 - No content
+2024-11-28 00:35:52,717 - INFO: Processing row 44/116
+2024-11-28 00:35:52,717 - WARNING: Skipping row 44 - No content
+2024-11-28 00:35:52,718 - INFO: Processing row 45/116
+2024-11-28 00:35:52,718 - WARNING: Skipping row 45 - No content
+2024-11-28 00:35:52,718 - INFO: Processing row 46/116
+2024-11-28 00:35:52,719 - WARNING: Skipping row 46 - No content
+2024-11-28 00:35:52,719 - INFO: Processing row 47/116
+2024-11-28 00:35:52,719 - WARNING: Skipping row 47 - No content
+2024-11-28 00:35:52,720 - INFO: Processing row 48/116
+2024-11-28 00:35:52,720 - WARNING: Skipping row 48 - No content
+2024-11-28 00:35:52,720 - INFO: Processing row 49/116
+2024-11-28 00:35:52,721 - WARNING: Skipping row 49 - No content
+2024-11-28 00:35:52,721 - INFO: Processing row 50/116
+2024-11-28 00:35:52,722 - WARNING: Skipping row 50 - No content
+2024-11-28 00:35:52,722 - INFO: Processing row 51/116
+2024-11-28 00:35:52,722 - WARNING: Skipping row 51 - No content
+2024-11-28 00:35:52,723 - INFO: Processing row 52/116
+2024-11-28 00:35:52,723 - WARNING: Skipping row 52 - No content
+2024-11-28 00:35:52,723 - INFO: Processing row 53/116
+2024-11-28 00:35:52,723 - WARNING: Skipping row 53 - No content
+2024-11-28 00:35:52,724 - INFO: Processing row 54/116
+2024-11-28 00:35:52,724 - WARNING: Skipping row 54 - No content
+2024-11-28 00:35:52,725 - INFO: Processing row 55/116
+2024-11-28 00:35:52,725 - WARNING: Skipping row 55 - No content
+2024-11-28 00:35:52,725 - INFO: Processing row 56/116
+2024-11-28 00:35:52,725 - WARNING: Skipping row 56 - No content
+2024-11-28 00:35:52,726 - INFO: Processing row 57/116
+2024-11-28 00:35:52,726 - WARNING: Skipping row 57 - No content
+2024-11-28 00:35:52,726 - INFO: Processing row 58/116
+2024-11-28 00:35:52,727 - WARNING: Skipping row 58 - No content
+2024-11-28 00:35:52,727 - INFO: Processing row 59/116
+2024-11-28 00:35:52,727 - WARNING: Skipping row 59 - No content
+2024-11-28 00:35:52,728 - INFO: Processing row 60/116
+2024-11-28 00:35:52,728 - WARNING: Skipping row 60 - No content
+2024-11-28 00:35:52,728 - INFO: Processing row 61/116
+2024-11-28 00:35:52,729 - WARNING: Skipping row 61 - No content
+2024-11-28 00:35:52,729 - INFO: Processing row 62/116
+2024-11-28 00:35:52,729 - WARNING: Skipping row 62 - No content
+2024-11-28 00:35:52,730 - INFO: Processing row 63/116
+2024-11-28 00:35:52,730 - WARNING: Skipping row 63 - No content
+2024-11-28 00:35:52,730 - INFO: Processing row 64/116
+2024-11-28 00:35:52,731 - WARNING: Skipping row 64 - No content
+2024-11-28 00:35:52,731 - INFO: Processing row 65/116
+2024-11-28 00:35:52,731 - WARNING: Skipping row 65 - No content
+2024-11-28 00:35:52,732 - INFO: Processing row 66/116
+2024-11-28 00:35:52,732 - WARNING: Skipping row 66 - No content
+2024-11-28 00:35:52,732 - INFO: Processing row 67/116
+2024-11-28 00:35:52,733 - WARNING: Skipping row 67 - No content
+2024-11-28 00:35:52,733 - INFO: Processing row 68/116
+2024-11-28 00:35:52,733 - WARNING: Skipping row 68 - No content
+2024-11-28 00:35:52,734 - INFO: Processing row 69/116
+2024-11-28 00:35:52,734 - WARNING: Skipping row 69 - No content
+2024-11-28 00:35:52,734 - INFO: Processing row 70/116
+2024-11-28 00:35:52,735 - WARNING: Skipping row 70 - No content
+2024-11-28 00:35:52,735 - INFO: Processing row 71/116
+2024-11-28 00:35:52,735 - WARNING: Skipping row 71 - No content
+2024-11-28 00:35:52,736 - INFO: Processing row 72/116
+2024-11-28 00:35:52,736 - WARNING: Skipping row 72 - No content
+2024-11-28 00:35:52,736 - INFO: Processing row 73/116
+2024-11-28 00:35:52,737 - WARNING: Skipping row 73 - No content
+2024-11-28 00:35:52,737 - INFO: Processing row 74/116
+2024-11-28 00:35:52,738 - WARNING: Skipping row 74 - No content
+2024-11-28 00:35:52,738 - INFO: Processing row 75/116
+2024-11-28 00:35:52,738 - WARNING: Skipping row 75 - No content
+2024-11-28 00:35:52,739 - INFO: Processing row 76/116
+2024-11-28 00:35:52,739 - WARNING: Skipping row 76 - No content
+2024-11-28 00:35:52,739 - INFO: Processing row 77/116
+2024-11-28 00:35:52,740 - WARNING: Skipping row 77 - No content
+2024-11-28 00:35:52,740 - INFO: Processing row 78/116
+2024-11-28 00:35:52,740 - WARNING: Skipping row 78 - No content
+2024-11-28 00:35:52,741 - INFO: Processing row 79/116
+2024-11-28 00:35:52,741 - WARNING: Skipping row 79 - No content
+2024-11-28 00:35:52,741 - INFO: Processing row 80/116
+2024-11-28 00:35:52,742 - WARNING: Skipping row 80 - No content
+2024-11-28 00:35:52,742 - INFO: Processing row 81/116
+2024-11-28 00:35:52,742 - WARNING: Skipping row 81 - No content
+2024-11-28 00:35:52,743 - INFO: Processing row 82/116
+2024-11-28 00:35:52,743 - WARNING: Skipping row 82 - No content
+2024-11-28 00:35:52,743 - INFO: Processing row 83/116
+2024-11-28 00:35:52,744 - WARNING: Skipping row 83 - No content
+2024-11-28 00:35:52,744 - INFO: Processing row 84/116
+2024-11-28 00:35:52,744 - WARNING: Skipping row 84 - No content
+2024-11-28 00:35:52,745 - INFO: Processing row 85/116
+2024-11-28 00:35:52,745 - WARNING: Skipping row 85 - No content
+2024-11-28 00:35:52,745 - INFO: Processing row 86/116
+2024-11-28 00:35:52,745 - WARNING: Skipping row 86 - No content
+2024-11-28 00:35:52,746 - INFO: Processing row 87/116
+2024-11-28 00:35:52,746 - WARNING: Skipping row 87 - No content
+2024-11-28 00:35:52,747 - INFO: Processing row 88/116
+2024-11-28 00:35:52,747 - WARNING: Skipping row 88 - No content
+2024-11-28 00:35:52,747 - INFO: Processing row 89/116
+2024-11-28 00:35:52,747 - WARNING: Skipping row 89 - No content
+2024-11-28 00:35:52,748 - INFO: Processing row 90/116
+2024-11-28 00:35:52,748 - WARNING: Skipping row 90 - No content
+2024-11-28 00:35:52,748 - INFO: Processing row 91/116
+2024-11-28 00:35:52,749 - WARNING: Skipping row 91 - No content
+2024-11-28 00:35:52,749 - INFO: Processing row 92/116
+2024-11-28 00:35:52,749 - WARNING: Skipping row 92 - No content
+2024-11-28 00:35:52,750 - INFO: Processing row 93/116
+2024-11-28 00:35:52,750 - WARNING: Skipping row 93 - No content
+2024-11-28 00:35:52,750 - INFO: Processing row 94/116
+2024-11-28 00:35:52,751 - WARNING: Skipping row 94 - No content
+2024-11-28 00:35:52,751 - INFO: Processing row 95/116
+2024-11-28 00:35:52,751 - WARNING: Skipping row 95 - No content
+2024-11-28 00:35:52,752 - INFO: Processing row 96/116
+2024-11-28 00:35:52,752 - WARNING: Skipping row 96 - No content
+2024-11-28 00:35:52,752 - INFO: Processing row 97/116
+2024-11-28 00:35:52,753 - WARNING: Skipping row 97 - No content
+2024-11-28 00:35:52,753 - INFO: Processing row 98/116
+2024-11-28 00:35:52,753 - WARNING: Skipping row 98 - No content
+2024-11-28 00:35:52,754 - INFO: Processing row 99/116
+2024-11-28 00:35:52,754 - WARNING: Skipping row 99 - No content
+2024-11-28 00:35:52,755 - INFO: Processing row 100/116
+2024-11-28 00:35:52,755 - WARNING: Skipping row 100 - No content
+2024-11-28 00:35:52,755 - INFO: Processing row 101/116
+2024-11-28 00:35:52,755 - WARNING: Skipping row 101 - No content
+2024-11-28 00:35:52,756 - INFO: Processing row 102/116
+2024-11-28 00:35:52,756 - WARNING: Skipping row 102 - No content
+2024-11-28 00:35:52,757 - INFO: Processing row 103/116
+2024-11-28 00:35:52,757 - WARNING: Skipping row 103 - No content
+2024-11-28 00:35:52,757 - INFO: Processing row 104/116
+2024-11-28 00:35:52,757 - WARNING: Skipping row 104 - No content
+2024-11-28 00:35:52,758 - INFO: Processing row 105/116
+2024-11-28 00:35:52,758 - WARNING: Skipping row 105 - No content
+2024-11-28 00:35:52,758 - INFO: Processing row 106/116
+2024-11-28 00:35:52,759 - WARNING: Skipping row 106 - No content
+2024-11-28 00:35:52,759 - INFO: Processing row 107/116
+2024-11-28 00:35:52,759 - WARNING: Skipping row 107 - No content
+2024-11-28 00:35:52,760 - INFO: Processing row 108/116
+2024-11-28 00:35:52,760 - WARNING: Skipping row 108 - No content
+2024-11-28 00:35:52,760 - INFO: Processing row 109/116
+2024-11-28 00:35:52,761 - WARNING: Skipping row 109 - No content
+2024-11-28 00:35:52,761 - INFO: Processing row 110/116
+2024-11-28 00:35:52,761 - WARNING: Skipping row 110 - No content
+2024-11-28 00:35:52,762 - INFO: Processing row 111/116
+2024-11-28 00:35:52,762 - WARNING: Skipping row 111 - No content
+2024-11-28 00:35:52,762 - INFO: Processing row 112/116
+2024-11-28 00:35:52,763 - WARNING: Skipping row 112 - No content
+2024-11-28 00:35:52,763 - INFO: Processing row 113/116
+2024-11-28 00:35:52,763 - WARNING: Skipping row 113 - No content
+2024-11-28 00:35:52,764 - INFO: Processing row 114/116
+2024-11-28 00:35:52,764 - WARNING: Skipping row 114 - No content
+2024-11-28 00:35:52,764 - INFO: Processing row 115/116
+2024-11-28 00:35:52,765 - WARNING: Skipping row 115 - No content
+2024-11-28 00:35:52,765 - INFO: Processing row 116/116
+2024-11-28 00:35:52,765 - WARNING: Skipping row 116 - No content
+2024-11-28 00:35:52,766 - INFO: --- Processed DataFrame ---
+2024-11-28 00:35:52,767 - INFO: DataFrame Shape: (0, 0)
+2024-11-28 00:35:52,767 - INFO: Columns:
+2024-11-28 00:35:52,767 - INFO: First few rows:
+2024-11-28 00:35:52,768 - INFO: Empty DataFrame
+Columns: []
+Index: []
+2024-11-28 09:41:27,985 - INFO: --- Original DataFrame ---
+2024-11-28 09:41:27,987 - INFO: DataFrame Shape: (116, 9)
+2024-11-28 09:41:27,987 - INFO: Columns:
+2024-11-28 09:41:27,988 - INFO: - Unnamed: 0
+2024-11-28 09:41:27,988 - INFO: - Name
+2024-11-28 09:41:27,989 - INFO: - Address
+2024-11-28 09:41:27,989 - INFO: - Rating_text
+2024-11-28 09:41:27,990 - INFO: - Opening Time
+2024-11-28 09:41:27,990 - INFO: - Phone Number
+2024-11-28 09:41:27,991 - INFO: - GMAP
+2024-11-28 09:41:27,991 - INFO: - Website
+2024-11-28 09:41:27,991 - INFO: - All_content
+2024-11-28 09:41:27,992 - INFO: First few rows:
+2024-11-28 09:41:28,024 - INFO:    Unnamed: 0                                               Name  ...                       Website                                        All_content
+0           0  Dplus Car Care - Car Detailing | Car Tinkering...  ...  http://www.dpluscarcare.com/  ['', '', '', '', '', 'CHIL SEZ IT Park, Sarava...
+1           1                                Abilash Auto Garage  ...                           NaN                                                NaN
+2           2                                       SNS CAR CARE  ...        https://snscarcare.in/  ['Home\nAbout\nServices\nContact\nExpert Car R...
+3           3                          SRI RAGHUNANTHAN CAR CARE  ...                           NaN                                                NaN
+4           4        Prime Car Service | Multi Brand Car Service  ...                           NaN                                                NaN
+
+[5 rows x 9 columns]
+2024-11-28 09:41:28,025 - INFO: Loaded file with 116 rows
+2024-11-28 09:41:28,026 - INFO: Processing row 1/116
+2024-11-28 09:41:28,026 - WARNING: Skipping row 1 - No content
+2024-11-28 09:41:28,027 - INFO: Processing row 2/116
+2024-11-28 09:41:28,028 - WARNING: Skipping row 2 - No content
+2024-11-28 09:41:28,028 - INFO: Processing row 3/116
+2024-11-28 09:41:28,029 - WARNING: Skipping row 3 - No content
+2024-11-28 09:41:28,030 - INFO: Processing row 4/116
+2024-11-28 09:41:28,030 - WARNING: Skipping row 4 - No content
+2024-11-28 09:41:28,031 - INFO: Processing row 5/116
+2024-11-28 09:41:28,032 - WARNING: Skipping row 5 - No content
+2024-11-28 09:41:28,032 - INFO: Processing row 6/116
+2024-11-28 09:41:28,033 - WARNING: Skipping row 6 - No content
+2024-11-28 09:41:28,034 - INFO: Processing row 7/116
+2024-11-28 09:41:28,034 - WARNING: Skipping row 7 - No content
+2024-11-28 09:41:28,035 - INFO: Processing row 8/116
+2024-11-28 09:41:28,036 - WARNING: Skipping row 8 - No content
+2024-11-28 09:41:28,037 - INFO: Processing row 9/116
+2024-11-28 09:41:28,037 - WARNING: Skipping row 9 - No content
+2024-11-28 09:41:28,038 - INFO: Processing row 10/116
+2024-11-28 09:41:28,038 - WARNING: Skipping row 10 - No content
+2024-11-28 09:41:28,039 - INFO: Processing row 11/116
+2024-11-28 09:41:28,040 - WARNING: Skipping row 11 - No content
+2024-11-28 09:41:28,040 - INFO: Processing row 12/116
+2024-11-28 09:41:28,041 - WARNING: Skipping row 12 - No content
+2024-11-28 09:41:28,042 - INFO: Processing row 13/116
+2024-11-28 09:41:28,042 - WARNING: Skipping row 13 - No content
+2024-11-28 09:41:28,043 - INFO: Processing row 14/116
+2024-11-28 09:41:28,043 - WARNING: Skipping row 14 - No content
+2024-11-28 09:41:28,044 - INFO: Processing row 15/116
+2024-11-28 09:41:28,045 - WARNING: Skipping row 15 - No content
+2024-11-28 09:41:28,045 - INFO: Processing row 16/116
+2024-11-28 09:41:28,046 - WARNING: Skipping row 16 - No content
+2024-11-28 09:41:28,047 - INFO: Processing row 17/116
+2024-11-28 09:41:28,047 - WARNING: Skipping row 17 - No content
+2024-11-28 09:41:28,048 - INFO: Processing row 18/116
+2024-11-28 09:41:28,049 - WARNING: Skipping row 18 - No content
+2024-11-28 09:41:28,049 - INFO: Processing row 19/116
+2024-11-28 09:41:28,050 - WARNING: Skipping row 19 - No content
+2024-11-28 09:41:28,051 - INFO: Processing row 20/116
+2024-11-28 09:41:28,051 - WARNING: Skipping row 20 - No content
+2024-11-28 09:41:28,052 - INFO: Processing row 21/116
+2024-11-28 09:41:28,052 - WARNING: Skipping row 21 - No content
+2024-11-28 09:41:28,053 - INFO: Processing row 22/116
+2024-11-28 09:41:28,054 - WARNING: Skipping row 22 - No content
+2024-11-28 09:41:28,055 - INFO: Processing row 23/116
+2024-11-28 09:41:28,055 - WARNING: Skipping row 23 - No content
+2024-11-28 09:41:28,056 - INFO: Processing row 24/116
+2024-11-28 09:41:28,056 - WARNING: Skipping row 24 - No content
+2024-11-28 09:41:28,057 - INFO: Processing row 25/116
+2024-11-28 09:41:28,058 - WARNING: Skipping row 25 - No content
+2024-11-28 09:41:28,058 - INFO: Processing row 26/116
+2024-11-28 09:41:28,059 - WARNING: Skipping row 26 - No content
+2024-11-28 09:41:28,060 - INFO: Processing row 27/116
+2024-11-28 09:41:28,060 - WARNING: Skipping row 27 - No content
+2024-11-28 09:41:28,061 - INFO: Processing row 28/116
+2024-11-28 09:41:28,062 - WARNING: Skipping row 28 - No content
+2024-11-28 09:41:28,063 - INFO: Processing row 29/116
+2024-11-28 09:41:28,063 - WARNING: Skipping row 29 - No content
+2024-11-28 09:41:28,064 - INFO: Processing row 30/116
+2024-11-28 09:41:28,065 - WARNING: Skipping row 30 - No content
+2024-11-28 09:41:28,066 - INFO: Processing row 31/116
+2024-11-28 09:41:28,066 - WARNING: Skipping row 31 - No content
+2024-11-28 09:41:28,067 - INFO: Processing row 32/116
+2024-11-28 09:41:28,068 - WARNING: Skipping row 32 - No content
+2024-11-28 09:41:28,069 - INFO: Processing row 33/116
+2024-11-28 09:41:28,069 - WARNING: Skipping row 33 - No content
+2024-11-28 09:41:28,070 - INFO: Processing row 34/116
+2024-11-28 09:41:28,071 - WARNING: Skipping row 34 - No content
+2024-11-28 09:41:28,072 - INFO: Processing row 35/116
+2024-11-28 09:41:28,072 - WARNING: Skipping row 35 - No content
+2024-11-28 09:41:28,073 - INFO: Processing row 36/116
+2024-11-28 09:41:28,074 - WARNING: Skipping row 36 - No content
+2024-11-28 09:41:28,074 - INFO: Processing row 37/116
+2024-11-28 09:41:28,075 - WARNING: Skipping row 37 - No content
+2024-11-28 09:41:28,076 - INFO: Processing row 38/116
+2024-11-28 09:41:28,076 - WARNING: Skipping row 38 - No content
+2024-11-28 09:41:28,077 - INFO: Processing row 39/116
+2024-11-28 09:41:28,078 - WARNING: Skipping row 39 - No content
+2024-11-28 09:41:28,078 - INFO: Processing row 40/116
+2024-11-28 09:41:28,079 - WARNING: Skipping row 40 - No content
+2024-11-28 09:41:28,080 - INFO: Processing row 41/116
+2024-11-28 09:41:28,081 - WARNING: Skipping row 41 - No content
+2024-11-28 09:41:28,082 - INFO: Processing row 42/116
+2024-11-28 09:41:28,083 - WARNING: Skipping row 42 - No content
+2024-11-28 09:41:28,084 - INFO: Processing row 43/116
+2024-11-28 09:41:28,084 - WARNING: Skipping row 43 - No content
+2024-11-28 09:41:28,085 - INFO: Processing row 44/116
+2024-11-28 09:41:28,086 - WARNING: Skipping row 44 - No content
+2024-11-28 09:41:28,086 - INFO: Processing row 45/116
+2024-11-28 09:41:28,087 - WARNING: Skipping row 45 - No content
+2024-11-28 09:41:28,088 - INFO: Processing row 46/116
+2024-11-28 09:41:28,088 - WARNING: Skipping row 46 - No content
+2024-11-28 09:41:28,089 - INFO: Processing row 47/116
+2024-11-28 09:41:28,089 - WARNING: Skipping row 47 - No content
+2024-11-28 09:41:28,090 - INFO: Processing row 48/116
+2024-11-28 09:41:28,091 - WARNING: Skipping row 48 - No content
+2024-11-28 09:41:28,092 - INFO: Processing row 49/116
+2024-11-28 09:41:28,092 - WARNING: Skipping row 49 - No content
+2024-11-28 09:41:28,093 - INFO: Processing row 50/116
+2024-11-28 09:41:28,094 - WARNING: Skipping row 50 - No content
+2024-11-28 09:41:28,094 - INFO: Processing row 51/116
+2024-11-28 09:41:28,095 - WARNING: Skipping row 51 - No content
+2024-11-28 09:41:28,096 - INFO: Processing row 52/116
+2024-11-28 09:41:28,096 - WARNING: Skipping row 52 - No content
+2024-11-28 09:41:28,097 - INFO: Processing row 53/116
+2024-11-28 09:41:28,098 - WARNING: Skipping row 53 - No content
+2024-11-28 09:41:28,099 - INFO: Processing row 54/116
+2024-11-28 09:41:28,099 - WARNING: Skipping row 54 - No content
+2024-11-28 09:41:28,100 - INFO: Processing row 55/116
+2024-11-28 09:41:28,101 - WARNING: Skipping row 55 - No content
+2024-11-28 09:41:28,102 - INFO: Processing row 56/116
+2024-11-28 09:41:28,102 - WARNING: Skipping row 56 - No content
+2024-11-28 09:41:28,103 - INFO: Processing row 57/116
+2024-11-28 09:41:28,104 - WARNING: Skipping row 57 - No content
+2024-11-28 09:41:28,105 - INFO: Processing row 58/116
+2024-11-28 09:41:28,105 - WARNING: Skipping row 58 - No content
+2024-11-28 09:41:28,106 - INFO: Processing row 59/116
+2024-11-28 09:41:28,106 - WARNING: Skipping row 59 - No content
+2024-11-28 09:41:28,107 - INFO: Processing row 60/116
+2024-11-28 09:41:28,107 - WARNING: Skipping row 60 - No content
+2024-11-28 09:41:28,108 - INFO: Processing row 61/116
+2024-11-28 09:41:28,109 - WARNING: Skipping row 61 - No content
+2024-11-28 09:41:28,109 - INFO: Processing row 62/116
+2024-11-28 09:41:28,110 - WARNING: Skipping row 62 - No content
+2024-11-28 09:41:28,111 - INFO: Processing row 63/116
+2024-11-28 09:41:28,111 - WARNING: Skipping row 63 - No content
+2024-11-28 09:41:28,112 - INFO: Processing row 64/116
+2024-11-28 09:41:28,113 - WARNING: Skipping row 64 - No content
+2024-11-28 09:41:28,114 - INFO: Processing row 65/116
+2024-11-28 09:41:28,114 - WARNING: Skipping row 65 - No content
+2024-11-28 09:41:28,115 - INFO: Processing row 66/116
+2024-11-28 09:41:28,116 - WARNING: Skipping row 66 - No content
+2024-11-28 09:41:28,117 - INFO: Processing row 67/116
+2024-11-28 09:41:28,118 - WARNING: Skipping row 67 - No content
+2024-11-28 09:41:28,118 - INFO: Processing row 68/116
+2024-11-28 09:41:28,119 - WARNING: Skipping row 68 - No content
+2024-11-28 09:41:28,120 - INFO: Processing row 69/116
+2024-11-28 09:41:28,120 - WARNING: Skipping row 69 - No content
+2024-11-28 09:41:28,121 - INFO: Processing row 70/116
+2024-11-28 09:41:28,122 - WARNING: Skipping row 70 - No content
+2024-11-28 09:41:28,122 - INFO: Processing row 71/116
+2024-11-28 09:41:28,123 - WARNING: Skipping row 71 - No content
+2024-11-28 09:41:28,123 - INFO: Processing row 72/116
+2024-11-28 09:41:28,124 - WARNING: Skipping row 72 - No content
+2024-11-28 09:41:28,125 - INFO: Processing row 73/116
+2024-11-28 09:41:28,125 - WARNING: Skipping row 73 - No content
+2024-11-28 09:41:28,126 - INFO: Processing row 74/116
+2024-11-28 09:41:28,127 - WARNING: Skipping row 74 - No content
+2024-11-28 09:41:28,128 - INFO: Processing row 75/116
+2024-11-28 09:41:28,128 - WARNING: Skipping row 75 - No content
+2024-11-28 09:41:28,129 - INFO: Processing row 76/116
+2024-11-28 09:41:28,130 - WARNING: Skipping row 76 - No content
+2024-11-28 09:41:28,131 - INFO: Processing row 77/116
+2024-11-28 09:41:28,131 - WARNING: Skipping row 77 - No content
+2024-11-28 09:41:28,132 - INFO: Processing row 78/116
+2024-11-28 09:41:28,133 - WARNING: Skipping row 78 - No content
+2024-11-28 09:41:28,134 - INFO: Processing row 79/116
+2024-11-28 09:41:28,134 - WARNING: Skipping row 79 - No content
+2024-11-28 09:41:28,135 - INFO: Processing row 80/116
+2024-11-28 09:41:28,136 - WARNING: Skipping row 80 - No content
+2024-11-28 09:41:28,136 - INFO: Processing row 81/116
+2024-11-28 09:41:28,137 - WARNING: Skipping row 81 - No content
+2024-11-28 09:41:28,138 - INFO: Processing row 82/116
+2024-11-28 09:41:28,138 - WARNING: Skipping row 82 - No content
+2024-11-28 09:41:28,139 - INFO: Processing row 83/116
+2024-11-28 09:41:28,140 - WARNING: Skipping row 83 - No content
+2024-11-28 09:41:28,141 - INFO: Processing row 84/116
+2024-11-28 09:41:28,142 - WARNING: Skipping row 84 - No content
+2024-11-28 09:41:28,142 - INFO: Processing row 85/116
+2024-11-28 09:41:28,143 - WARNING: Skipping row 85 - No content
+2024-11-28 09:41:28,144 - INFO: Processing row 86/116
+2024-11-28 09:41:28,144 - WARNING: Skipping row 86 - No content
+2024-11-28 09:41:28,145 - INFO: Processing row 87/116
+2024-11-28 09:41:28,146 - WARNING: Skipping row 87 - No content
+2024-11-28 09:41:28,147 - INFO: Processing row 88/116
+2024-11-28 09:41:28,147 - WARNING: Skipping row 88 - No content
+2024-11-28 09:41:28,148 - INFO: Processing row 89/116
+2024-11-28 09:41:28,149 - WARNING: Skipping row 89 - No content
+2024-11-28 09:41:28,150 - INFO: Processing row 90/116
+2024-11-28 09:41:28,151 - WARNING: Skipping row 90 - No content
+2024-11-28 09:41:28,151 - INFO: Processing row 91/116
+2024-11-28 09:41:28,152 - WARNING: Skipping row 91 - No content
+2024-11-28 09:41:28,153 - INFO: Processing row 92/116
+2024-11-28 09:41:28,153 - WARNING: Skipping row 92 - No content
+2024-11-28 09:41:28,154 - INFO: Processing row 93/116
+2024-11-28 09:41:28,155 - WARNING: Skipping row 93 - No content
+2024-11-28 09:41:28,155 - INFO: Processing row 94/116
+2024-11-28 09:41:28,156 - WARNING: Skipping row 94 - No content
+2024-11-28 09:41:28,157 - INFO: Processing row 95/116
+2024-11-28 09:41:28,157 - WARNING: Skipping row 95 - No content
+2024-11-28 09:41:28,158 - INFO: Processing row 96/116
+2024-11-28 09:41:28,158 - WARNING: Skipping row 96 - No content
+2024-11-28 09:41:28,159 - INFO: Processing row 97/116
+2024-11-28 09:41:28,160 - WARNING: Skipping row 97 - No content
+2024-11-28 09:41:28,160 - INFO: Processing row 98/116
+2024-11-28 09:41:28,161 - WARNING: Skipping row 98 - No content
+2024-11-28 09:41:28,162 - INFO: Processing row 99/116
+2024-11-28 09:41:28,162 - WARNING: Skipping row 99 - No content
+2024-11-28 09:41:28,163 - INFO: Processing row 100/116
+2024-11-28 09:41:28,163 - WARNING: Skipping row 100 - No content
+2024-11-28 09:41:28,164 - INFO: Processing row 101/116
+2024-11-28 09:41:28,165 - WARNING: Skipping row 101 - No content
+2024-11-28 09:41:28,165 - INFO: Processing row 102/116
+2024-11-28 09:41:28,166 - WARNING: Skipping row 102 - No content
+2024-11-28 09:41:28,167 - INFO: Processing row 103/116
+2024-11-28 09:41:28,168 - WARNING: Skipping row 103 - No content
+2024-11-28 09:41:28,168 - INFO: Processing row 104/116
+2024-11-28 09:41:28,169 - WARNING: Skipping row 104 - No content
+2024-11-28 09:41:28,170 - INFO: Processing row 105/116
+2024-11-28 09:41:28,170 - WARNING: Skipping row 105 - No content
+2024-11-28 09:41:28,171 - INFO: Processing row 106/116
+2024-11-28 09:41:28,172 - WARNING: Skipping row 106 - No content
+2024-11-28 09:41:28,173 - INFO: Processing row 107/116
+2024-11-28 09:41:28,173 - WARNING: Skipping row 107 - No content
+2024-11-28 09:41:28,174 - INFO: Processing row 108/116
+2024-11-28 09:41:28,175 - WARNING: Skipping row 108 - No content
+2024-11-28 09:41:28,175 - INFO: Processing row 109/116
+2024-11-28 09:41:28,176 - WARNING: Skipping row 109 - No content
+2024-11-28 09:41:28,177 - INFO: Processing row 110/116
+2024-11-28 09:41:28,177 - WARNING: Skipping row 110 - No content
+2024-11-28 09:41:28,178 - INFO: Processing row 111/116
+2024-11-28 09:41:28,178 - WARNING: Skipping row 111 - No content
+2024-11-28 09:41:28,179 - INFO: Processing row 112/116
+2024-11-28 09:41:28,179 - WARNING: Skipping row 112 - No content
+2024-11-28 09:41:28,180 - INFO: Processing row 113/116
+2024-11-28 09:41:28,181 - WARNING: Skipping row 113 - No content
+2024-11-28 09:41:28,181 - INFO: Processing row 114/116
+2024-11-28 09:41:28,182 - WARNING: Skipping row 114 - No content
+2024-11-28 09:41:28,183 - INFO: Processing row 115/116
+2024-11-28 09:41:28,183 - WARNING: Skipping row 115 - No content
+2024-11-28 09:41:28,184 - INFO: Processing row 116/116
+2024-11-28 09:41:28,185 - WARNING: Skipping row 116 - No content
+2024-11-28 09:41:28,188 - INFO: --- Processed DataFrame ---
+2024-11-28 09:41:28,188 - INFO: DataFrame Shape: (0, 0)
+2024-11-28 09:41:28,189 - INFO: Columns:
+2024-11-28 09:41:28,189 - INFO: First few rows:
+2024-11-28 09:41:28,191 - INFO: Empty DataFrame
+Columns: []
+Index: []
